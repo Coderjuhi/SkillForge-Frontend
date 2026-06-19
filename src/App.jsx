@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route, Outlet } from "react-router-dom";
 import Home from './component/Home'; import Navbar from'./component/Navbar'; 
 import AuthPage from "./pages/AuthPage";
-import DashboardLayout from "./layout/DashboardLayout";
+import DashboardLayout from "./Layout/DashboardLayout";
 import Dashboard from "./pages/Dashboard";
 import Roadmap from "./pages/Roadmap";
 import SkillAnalyzer from "./pages/SkillAnalyzer";
