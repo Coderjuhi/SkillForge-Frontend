@@ -31,7 +31,7 @@ export default function DashboardLayout() {
             <Sidebar />
             <DashboardNavbar user={user}/>
             <div className="ml-64 min-h-screen flex-1 p-8">
-                <Outlet  context={{user}}/>
+                <Outlet  context={{user,setUser}}/>
             </div>
         </div>
     );
